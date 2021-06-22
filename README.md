@@ -1,4 +1,4 @@
-# deliberate-practice
+# Deliberate Practice Time Tracker
 
 This CLI program was designed to track the time spent in deliberate practice.
 It is written in Java and uses a SQLite database.
