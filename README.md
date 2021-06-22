@@ -8,6 +8,8 @@ For ease of use, it is bundled into a standalone jar using johnrengelman's shado
 
 A SQLite database is automatically created if it does not exist.
 
+The jar file can be downloaded from [here](https://github.com/williamsoftwarecode/deliberate-practice/raw/master/build/libs/deliberate-practice-1.0.jar).
+
 
 
 ## Available Commands 
