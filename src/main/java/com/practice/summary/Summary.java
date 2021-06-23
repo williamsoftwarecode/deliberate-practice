@@ -1,12 +1,12 @@
 package com.practice.summary;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.TreeMap;
 
 public class Summary {
 
-    Map<String, Long> dateAndDuration = new HashMap<>();
+    Map<String, Long> dateAndDuration = new TreeMap<>();
 
     public Summary() {
     }
@@ -23,8 +23,8 @@ public class Summary {
 
     public void printSummary() {
         this.dateAndDuration.forEach((date, duration) -> {
-            long minutes = duration / 60;
-            long seconds = duration % 60;
+            final long minutes = duration / 60;
+            final long seconds = duration % 60;
             System.out.println(date + " -> " + minutes + "m " + seconds + "s");
         });
         System.out.println();

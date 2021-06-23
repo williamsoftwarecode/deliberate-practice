@@ -12,7 +12,7 @@ The jar file can be downloaded from [here](https://github.com/williamsoftwarecod
 
 ## Running the program
 
-`java -jar deliberate-practice-1.0.jar`
+`java -jar deliberate-practice-1.1.jar`
 
 ## Available Commands 
 The available commands are:
@@ -36,3 +36,10 @@ The available commands are:
 - exit
 
     - Exits the program
+
+## Versions
+
+1.0 - Initial release
+
+1.1 - Bug fix 
+- Summary is now printed in correct chronological order 
